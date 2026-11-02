@@ -38,10 +38,9 @@ GRANT ALL PRIVILEGES ON student_management.* TO 'sm_user'@'localhost';
 
 Sao chép `.env.example` thành `.env` ở thư mục gốc, rồi điền mật khẩu vừa đặt:
 
-
+```
 copy .env.example .env
-
-
+```
 ### 3. Chạy backend
 
 ```powershell
